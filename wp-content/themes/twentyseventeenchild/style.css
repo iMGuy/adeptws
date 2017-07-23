@@ -1,0 +1,289 @@
+/* 
+Theme Name:		 Twenty Seventeen Child
+Description:	 Twenty Seventeen Child
+Template:		 twentyseventeen
+Version:		 1.0.0
+Text Domain:	 Twenty-Seventeen-child
+
+Theme customization starts here
+------------------------------------------------------- */
+html[lang="he-IL"] body {
+	font-family: Arimo, sans-serif;
+}
+
+
+{
+    	box-sizing: border-box;
+}
+
+body.page-two-column:not(.archive) #primary .entry-header {
+	width: 100%;
+}
+body.page-two-column:not(.archive) #primary .entry-content {
+	width: 100%;
+}
+
+#post-124 .entry-header {
+	display:none;
+}
+
+#post-124 .wrap {
+	padding-bottom: 1em !important;
+    	padding-top: 1em !important;
+}
+
+#panel1, #panel3 {
+	background-color:#1F2739;
+}
+
+.col {
+	background-color: #323C50;
+	color: #fff;
+	border: 1px solid #1F2739;
+	display: table-cell;
+   	padding: 16px;
+}
+
+.col:hover {
+	background-color: #464A52;
+}
+	
+.col-container {
+    	display: table;
+    	width: 100%;
+}
+
+#features .col {
+   	text-align: center;
+}
+
+#features .col:hover h3 {
+	color: #00b4f1;
+}
+
+#panel3 h2 {
+	text-align: center;
+}
+
+#panel1 h3, #panel3 h3 {
+	color: #00b4f1;
+	padding: 0;
+	
+}
+
+#panel3 h3 {
+	text-align: center;
+}
+
+#panel1 h2, #panel3 h2 {
+	color: #00b4f1;
+}
+
+.entry-header {
+    	margin-bottom: 2em !important;
+}
+
+h2 {
+    	font-size: 1.875rem !important;
+}
+
+#call-to-action {
+	top: 0;
+	display: block;
+	left: 0;
+	height: auto;
+	position: absolute;
+	width: 100%;
+	z-index:4;
+}
+
+.container-fluid {
+	padding-top: 15vh;
+	padding-right: 15px;
+    	padding-left: 15px;
+	position: relative;
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-align: center;
+}
+
+h1.marquee-brand {
+	font-size: 4rem;
+	line-height: 4.5rem;
+	color: #fff;
+	font-family: Arimo, sans-serif;
+	font-weight: 700;
+	margin: 0;
+	text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+h2.marquee-heading {
+	font-size: 3rem !important;
+	line-height: 3.5rem;
+	color: #fff;
+	font-family: Arimo, sans-serif;
+	font-weight: 300 !important;
+	margin: 0;
+	padding: 0 0 25px 0;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+	-webkit-transform: translateZ(999px) scale(.7);
+	transform: translateZ(999px) scale(.7);
+	z-index: 1;
+	
+}
+
+.btn { 
+	display: inline-block; 
+	border: 1px solid transparent; 
+	padding: 0.7rem 3rem; 
+	font-size: 1.2rem; 
+	border-bottom: 3px solid #ccc;
+	border-radius: 0.25rem; 
+	transition: all 0.2s ease-in-out;
+	color: #292b2c; 
+	background-color: #ffd510; 
+	font-weight: bold;
+	
+}
+
+.btn:focus, .btn:hover { 
+	 color: #292b2c; 
+	 background-color: #e6e6e6; 
+	 border-color: #adadad;
+	 outline: 0;
+	 text-decoration: underline;
+	 font-weight: bold;
+	 
+}
+
+body.page-two-column:not(.archive) #panel3 .entry-header {
+	width: 100% important;
+}
+
+/* Add logo to Twenty Seventeen Menu - https://gist.github.com/gareth-gillman/af3322402dd9c458f5c5b4537188f8ec */
+.navigation-top .custom-logo-link {
+ display:none;
+ float:left;
+}
+.site-branding .custom-logo-link {
+ display:none;
+}
+.site-navigation-fixed .custom-logo-link {
+ display:block;
+}
+
+.site-navigation-fixed .custom-logo {
+  max-width: 190px;
+}
+.navigation-top #site-navigation {
+ clear:none;
+}
+
+.contact_filed {
+width: 50%;
+float: right;
+}
+.contact_filed input {
+	width:90%;
+}
+
+#dialog {
+	width: 600px !important;
+	text-align: center;
+}
+
+#text-2 .widget-title {
+	display: none;
+}
+
+.nicetomeet {	
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+	color: #fff;
+	font-family: Arimo, sans-serif;
+	font-weight: 700;
+	margin: 0 auto;
+	padding: 0 0 45px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	width: 65%;
+}
+
+.logo_div{
+	width: auto;
+	float: left;
+	margin: 10px 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.col { 
+		display: block;
+		width: 100%;
+	}
+	
+	#features .col {
+		display: block important;
+		width: 100% important;
+	}
+	.container-fluid {
+		padding-top: 5vh;
+	}
+	#dialog {
+		width: 330px !important;
+		text-align: center;
+	}
+	
+		
+	h1.marquee-brand {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	}	
+	
+	h2.marquee-heading {
+		font-size: 2rem !important;
+    		line-height: 2.2rem;
+	}
+	.nicetomeet {
+		width:90%;
+	}
+}
+
+input[type="submit"] {
+	background-color: #00b4f1;
+	margin-top: 25px;
+	padding: 1em 3em;
+	font-family: Arimo, sans-serif !important;
+}
+
+@media only screen and (min-width: 600px) {
+	#features .col {
+		display: table-cell;
+		width: 33%;
+	}
+	
+	
+}
+
+@media screen and (max-width: 48em) {
+	body.page-two-column:not(.archive) #primary .entry-header {
+		width: 100%;
+	}
+	body.page-two-column:not(.archive) #primary .entry-content {
+		width: 100%;
+	}
+	#post-124{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.panel-image {
+	    height: 60vh;
+	}
+	.panel-content .wrap {
+		padding-top: 7em;
+	}
+}
+
+
