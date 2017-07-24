@@ -89,7 +89,7 @@ h2 {
 
 #call-to-action {
 	top: 0;
-	display: block;
+	display: none;
 	left: 0;
 	height: auto;
 	position: absolute;
@@ -97,6 +97,9 @@ h2 {
 	z-index:4;
 }
 
+.twentyseventeen-front-page #call-to-action {
+	display: block;
+}
 .container-fluid {
 	padding-top: 15vh;
 	padding-right: 15px;
@@ -285,5 +288,3 @@ input[type="submit"] {
 		padding-top: 7em;
 	}
 }
-
-
